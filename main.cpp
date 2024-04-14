@@ -9,7 +9,7 @@ int main()
 {
     txCreateWindow(WIDTH, HEIGHT);
     txSetFillColor(TX_WHITE);
-    txFloodFill(0, 0);
+    txClear();
 
     DrawMan(300, 300);
 
